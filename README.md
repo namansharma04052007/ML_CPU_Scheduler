@@ -15,9 +15,3 @@ Processes are classified based on burst time:
 - Long jobs (> 10 units)
 
 ML-inspired scheduling executes short jobs first, improving response time for smaller tasks.
-
-## How to Compile and Run
-
-```bash
-gcc main.c scheduler.c -o scheduler
-./scheduler
